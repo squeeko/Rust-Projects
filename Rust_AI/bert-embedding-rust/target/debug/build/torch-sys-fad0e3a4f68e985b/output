@@ -1,0 +1,78 @@
+cargo:rerun-if-env-changed=LIBTORCH_USE_PYTORCH
+cargo:rerun-if-env-changed=LIBTORCH
+cargo:rerun-if-env-changed=LIBTORCH_INCLUDE
+cargo:rerun-if-env-changed=LIBTORCH_LIB
+cargo:rerun-if-env-changed=LIBTORCH_CXX11_ABI
+cargo:rerun-if-env-changed=LIBTORCH_STATIC
+cargo:rustc-link-search=native=/usr/local/Cellar/pytorch/2.2.0_2/lib
+cargo:rerun-if-changed=libtch/fake_cuda_dependency.cpp
+cargo:rerun-if-changed=libtch/torch_python.cpp
+cargo:rerun-if-changed=libtch/torch_python.h
+cargo:rerun-if-changed=libtch/torch_api_generated.cpp
+cargo:rerun-if-changed=libtch/torch_api_generated.h
+cargo:rerun-if-changed=libtch/torch_api.cpp
+cargo:rerun-if-changed=libtch/torch_api.h
+cargo:rerun-if-changed=libtch/stb_image_write.h
+cargo:rerun-if-changed=libtch/stb_image_resize.h
+cargo:rerun-if-changed=libtch/stb_image.h
+cargo:libtorch_lib=/usr/local/Cellar/pytorch/2.2.0_2/lib
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-apple-darwin")
+cargo:rerun-if-env-changed=CXX_x86_64-apple-darwin
+CXX_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CXX_x86_64_apple_darwin
+CXX_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-apple-darwin
+CXXFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_apple_darwin
+CXXFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:warning=clang: warning: -Wl,-rpath=/usr/local/Cellar/pytorch/2.2.0_2/lib: 'linker' input unused [-Wunused-command-line-argument]
+cargo:warning=clang: warning: -Wl,-rpath=/usr/local/Cellar/pytorch/2.2.0_2/lib: 'linker' input unused [-Wunused-command-line-argument]
+cargo:warning=clang: warning: -Wl,-rpath=/usr/local/Cellar/pytorch/2.2.0_2/lib: 'linker' input unused [-Wunused-command-line-argument]
+exit status: 0
+exit status: 0
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-apple-darwin
+AR_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_x86_64_apple_darwin
+AR_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-apple-darwin
+ARFLAGS_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_apple_darwin
+ARFLAGS_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-lib=static=tch
+cargo:rustc-link-search=native=/Users/squeeko/Rust-AI/bert-embedding-rust/target/debug/build/torch-sys-fad0e3a4f68e985b/out
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-apple-darwin
+CXXSTDLIB_x86_64-apple-darwin = None
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_apple_darwin
+CXXSTDLIB_x86_64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-lib=c++
+cargo:rustc-link-lib=static=tch
+cargo:rustc-link-lib=torch_cpu
+cargo:rustc-link-lib=torch
+cargo:rustc-link-lib=c10

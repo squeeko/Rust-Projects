@@ -1,0 +1,11 @@
+/Users/squeeko/Rust-AI/bert-embedding-rust/target/debug/deps/libtorch_sys-4bb00e3f5bd03b34.rmeta: /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/lib.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/cuda.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/io.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/traits.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/c_generated.rs
+
+/Users/squeeko/Rust-AI/bert-embedding-rust/target/debug/deps/libtorch_sys-4bb00e3f5bd03b34.rlib: /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/lib.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/cuda.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/io.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/traits.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/c_generated.rs
+
+/Users/squeeko/Rust-AI/bert-embedding-rust/target/debug/deps/torch_sys-4bb00e3f5bd03b34.d: /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/lib.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/cuda.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/io.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/traits.rs /Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/c_generated.rs
+
+/Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/lib.rs:
+/Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/cuda.rs:
+/Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/io.rs:
+/Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/traits.rs:
+/Users/squeeko/.cargo/registry/src/index.crates.io-6f17d22bba15001f/torch-sys-0.15.0/src/c_generated.rs:
