@@ -1,0 +1,11 @@
+[package]
+name = "argon2-hash-enc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = { version = "0.5.3", features = ["alloc"] }
+password-hash = "0.5.0"
+rand_core = { version = "0.6.4", features = ["getrandom"] }
