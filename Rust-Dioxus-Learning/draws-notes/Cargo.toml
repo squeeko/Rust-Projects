@@ -1,0 +1,20 @@
+[package]
+name = "draws-notes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async_once = "0.2.6"
+dioxus = "0.5.1"
+dioxus-fullstack = "0.5.2"
+dioxus-logger = "0.5.0"
+lazy_static = "1.4.0"
+log = "0.4.20"
+serde = "1.0.193"
+surrealdb = "1.4.2"
+tokio = "1.35.1"
+
+# [features]
+# default = []
+# ssr = ["dioxus-fullstack/axum", "dep:surrealdb"]
+# web = ["dioxus-fullstack/web"]
