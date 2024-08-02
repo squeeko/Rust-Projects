@@ -1,2 +1,2 @@
 # Rust-Projects
-Repo of Rust projects done over the years
+Repo of Rust projects 
